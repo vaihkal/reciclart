@@ -92,3 +92,18 @@ El usuario puede tener una firma electrónica, que deberá ser única e inmutabl
 			- **Master**: sólo se publican módulos aprobados en la rama testing.
 	- **Unit Tests** de  Visual Studio para realizar pruebas unitarias.
 	- **[Ethereum](https://www.ethereum.org/)** como plataforma blockchain
+
+-	La aplicación móvil tendrá los siguientes criterios:
+	-	**Xamarin** como framework de desarrollo:
+		- Autenticación con [ASP .NET Core Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio)
+		- Autorización con [JWT](https://auth0.com/blog/securing-asp-dot-net-core-2-applications-with-jwts/)
+		- Push Notifications con [Azure Notification Hubs](https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview) o [Firebase](https://docs.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)
+		- Uso de Ethereum con [Nethereum](https://github.com/Nethereum/Nethereum)
+	- **Android** como plataforma destino.
+	- **Google Maps** como API de mapas.
+	- **GitHub** como control de versiones.
+		- Únicamente un repositorio con las siguientes ramas:
+			- **Desarrollo**: en esta rama se trabajará todo el desarrollo
+			- **Testing**: en esta rama se liberan módulos ya listos a probar
+			- **Master**: sólo se publican módulos aprobados en la rama testing.
+	- **Unit Tests** de  Visual Studio para realizar pruebas unitarias.
